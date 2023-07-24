@@ -2,18 +2,28 @@
     "name": "lavertia/panels",
     "description": "Admin Panel with Laravel & Inertia",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Lavertia\\Panels\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Moustafa Khazaal",
             "email": "mstfkhazaal@gmail.com"
         }
     ],
+    "homepage": "https://github.com/fnx-software/panels",
+    "support": {
+        "issues": "https://github.com/fnx-software/panels/issues",
+        "source": "https://github.com/fnx-software/panels"
+    },
     "require-dev": {
         "orchestra/testbench": "^8.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lavertia\\Panels\\Tests\\": "tests/"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Lavertia\\Panels\\": "src/"
+        }
     }
 }
