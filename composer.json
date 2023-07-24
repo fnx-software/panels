@@ -1,0 +1,19 @@
+{
+    "name": "lavertia/panels",
+    "description": "Admin Panel with Laravel & Inertia",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lavertia\\Panels\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Moustafa Khazaal",
+            "email": "mstfkhazaal@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.5"
+    }
+}
